@@ -1,0 +1,47 @@
+/** 对各类元素基础样式进行补充 **/
+
+/** html */
+html,body{
+  width: 100%;
+  height: 100%;
+}
+html {
+  background-color: $background-color-primary;
+  color: $color-text-primary;
+  font-size: 14px;
+}
+
+/** form */
+input {
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+/** img */
+img {
+  width: 100%;
+  vertical-align: middle; // 去除图片默认间隙
+}
+
+/** a */
+a {
+  color: $color-text-primary;
+  text-decoration: none;
+}
+
+/** p */
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  line-height: 1.5;
+}
+

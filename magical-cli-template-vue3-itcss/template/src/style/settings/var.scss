@@ -1,0 +1,32 @@
+/** 定义公用变量 颜色、边框、字体大小、阴影、层级... */
+
+/* Color
+----------------------- */
+$color-primary: #105eb5;  // app 主色调
+$color-white: #FFFFFF; // 白色
+$color-black: #000000; // 黑色
+
+// 将字体颜色按使用频率划分等级 
+$color-text-primary: #333333;           // 一级 字体颜色 （主要的字体颜色）
+$color-text-secondary: #666666;         // 二级 字体颜色 
+$color-text-tertiary: $color-white;       // 三级 字体颜色 
+$color-text-quaternary: $color-primary;   // 四级 字体颜色 
+
+$border-color-base: #E5E5E5;   // 边框基础色系
+
+// 将背景颜色按使用频率划分等级 
+$background-color-primary: #F1F1F1;         
+$background-color-secondary: $color-white;
+$background-color-tertiary: $color-primary;
+
+/* Border
+----------------------- */
+$border-width-base: 1Px !default;
+$border-style-base: solid !default;
+$border-base: $border-width-base $border-style-base $border-color-base !default;
+
+/* z-index
+-------------------------- */
+$index-normal: 1;
+$index-top: 1000;
+$index-popper: 2000;
